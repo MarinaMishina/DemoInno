@@ -1,0 +1,1 @@
+ALTER TABLE orders ADD number VARCHAR(20) NOT NULL;

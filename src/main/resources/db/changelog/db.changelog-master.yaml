@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/create_tables.sql
+  - include:
+      file: db/changelog/changeset/load_products.sql
+  - include:
+      file: db/changelog/changeset/change_customer_table_1.sql
+  - include:
+        file: db/changelog/changeset/change_orders_table_1.sql
